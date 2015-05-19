@@ -11,7 +11,7 @@
 
  
 /* URL routing, use preg_replace() compatible syntax */
-$config['routing']['search'] =  array();
+$config['routing']['search'] =  array('admin','page','news');
 $config['routing']['replace'] = array();
  
 /* set this to force controller and method instead of using URL params */
